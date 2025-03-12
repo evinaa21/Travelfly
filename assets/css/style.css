@@ -167,6 +167,63 @@ body {
   --background: transparent;
   --color: var(--white-1);
 }
+.btn-login:is(:hover, :focus) {
+  --background: transparent;
+  --color: var(--white-1);
+}
+.btn-login {
+  margin-left: 10px; /* Adds space to the left of the Login button */
+}
+/* Contact Us Section */
+.contact {
+  padding: 50px 0;
+}
+
+.contact-info {
+  margin-bottom: 30px;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form .form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.contact-form .form-group input,
+.contact-form .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact-form .btn {
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.contact-form .btn:hover {
+  background-color: #0056b3;
+}
+
 
 .btn-primary {
   --background: var(--viridian-green);
@@ -178,6 +235,7 @@ body {
   --background: transparent;
   --color: var(--viridian-green);
 }
+
 
 .btn-outline {
   --color: var(--oxford-blue);

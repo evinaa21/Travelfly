@@ -77,6 +77,7 @@
         </ul>
 
         <a href="#" class="btn btn-secondary">Booking Now</a>
+        <a href="#" class="btn btn-login">Login</a>
 
       </nav>
 
@@ -129,6 +130,8 @@
 
         </div>
       </section>
+
+
 
 
 
@@ -245,7 +248,7 @@
         - #POPULAR
       -->
 
-      <section class="section popular">
+      <section id="tours" class="section popular">
         <div class="container">
 
           <p class="section-subtitle">Featured Tours</p>
@@ -464,6 +467,7 @@
             </ul>
 
             <a href="#" class="btn btn-primary">Booking Now</a>
+            
 
           </div>
 
@@ -661,114 +665,50 @@
         </div>
       </section>
 
-      <section id="tours" class="section destination">
-        <div class="container">
+     <!--CONTACT-->
+<section id="contact-us" class="section contact">
+  <div class="container">
+    <p class="section-subtitle">Contact</p>
+    <h2 class="h2 section-title">Get In Touch</h2>
 
-          <p class="section-subtitle">Destinations</p>
+    <div class="contact-info">
+      <p>If you have any questions or need assistance, feel free to reach out to us.</p>
 
-          <h2 class="h2 section-title">Choose Your Place</h2>
+      <ul>
+        <li>
+          <strong>Email:</strong> <a href="mailto:contact@travelfly.com">contact@travelfly.com</a>
+        </li>
+        <li>
+          <strong>Phone:</strong> <a href="tel:+1234567890">+355 68 989897</a>
+        </li>
+        <li>
+          <strong>Address:</strong> 123 Travel St, Suite 456, Durres, Albania
+        </li>
+      </ul>
+    </div>
 
-          <ul class="destination-list">
-
-            <li class="w-50">
-              <a href="#" class="destination-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/destination-1.jpg" width="1140" height="1100" loading="lazy"
-                    alt="Malé, Maldives" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <p class="card-subtitle">Malé</p>
-
-                  <h3 class="h3 card-title">Maldives</h3>
-                </div>
-
-              </a>
-            </li>
-
-            <li class="w-50">
-              <a href="#" class="destination-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/destination-2.jpg" width="1140" height="1100" loading="lazy"
-                    alt="Bangkok, Thailand" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <p class="card-subtitle">Bangkok</p>
-
-                  <h3 class="h3 card-title">Thailand</h3>
-                </div>
-
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="destination-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/destination-3.jpg" width="1110" height="480" loading="lazy"
-                    alt="Kuala Lumpur, Malaysia" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <p class="card-subtitle">Kuala Lumpur</p>
-
-                  <h3 class="h3 card-title">Malaysia</h3>
-                </div>
-
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="destination-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/destination-4.jpg" width="1110" height="480" loading="lazy"
-                    alt="Kathmandu, Nepal" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <p class="card-subtitle">Kathmandu</p>
-
-                  <h3 class="h3 card-title">Nepal</h3>
-                </div>
-
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="destination-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/destination-5.jpg" width="1110" height="480" loading="lazy"
-                    alt="Jakarta, Indonesia" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <p class="card-subtitle">Jakarta</p>
-
-                  <h3 class="h3 card-title">Indonesia</h3>
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
+    <div class="contact-form">
+      <form action="your-server-side-script.php" method="POST">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" required>
         </div>
-      </section>
+        
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
 
-      <section id="contact-us" class="section contact">
-        <!-- Contact Us section content -->
-      </section>
+        <div class="form-group">
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
 
-    </article>
-  </main>
-
-
-
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
 
 
   <!-- 
@@ -815,23 +755,23 @@
           </li>
 
           <li>
-            <a href="#" class="footer-link">Travel</a>
+            <a href="https://www.tripadvisor.com/" target="_blank" class="footer-link">Travel</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Lifestyle</a>
+            <a href="https://www.thecut.com/" target="_blank" class="footer-link">Lifestyle</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Fashion</a>
+            <a href="https://www.farfetch.com/al/" target="_blank" class="footer-link">Fashion</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Education</a>
+            <a href="https://epoka.edu.al/" target="_blank" class="footer-link">Education</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Food & Drink</a>
+            <a href="https://www.mcdonalds.com/us/en-us.html" target="_blank" class="footer-link">Food & Drink</a>
           </li>
 
         </ul>
@@ -887,37 +827,37 @@
         <a href="#" class="logo">Travelfly</a>
 
         <p class="copyright">
-          &copy; 2022 <a href="#" class="copyright-link">codewithsadee</a>. All Rights Reserved
+          &copy; 2025 <a href="https://www.linkedin.com/in/evina-tershalla-345622353" target="_blank" class="copyright-link">EvinaTershalla</a>. All Rights Reserved
         </p>
 
         <ul class="social-list">
 
           <li>
-            <a href="#" class="social-link">
+            <a href="https://www.facebook.com" target="_blank" class="social-link">
               <ion-icon name="logo-facebook"></ion-icon>
             </a>
           </li>
 
           <li>
-            <a href="#" class="social-link">
+            <a href="https://www.x.com" target="_blank" class="social-link">
               <ion-icon name="logo-twitter"></ion-icon>
             </a>
           </li>
 
           <li>
-            <a href="#" class="social-link">
+            <a href="https://www.instagram.com" target="_blank" class="social-link">
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
           </li>
 
           <li>
-            <a href="#" class="social-link">
+            <a href="https://www.linkedin.com" target="_blank" class="social-link">
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>
           </li>
 
           <li>
-            <a href="#" class="social-link">
+            <a href="https://www.google.com" target="_blank" class="social-link">
               <ion-icon name="logo-google"></ion-icon>
             </a>
           </li>
